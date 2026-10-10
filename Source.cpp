@@ -5,7 +5,7 @@ using namespace std;
 string status;
 
 int main() {
-    int assignment, exam;
+    int assignment, total, exam;
     cout << "Enter assignment: ";
 
     cin >> assignment;
@@ -14,7 +14,7 @@ int main() {
 
     cin >> exam;
 
-    int total = assignment + exam;
+    total = assignment + exam;
 
     if (assignment < 20 || exam < 30) {
         status = "potribne dodatkove opracjyvannya";
